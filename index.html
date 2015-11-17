@@ -3,85 +3,83 @@
 
 <head>
      <meta charset="utf-8">
-     <link rel="stylesheet" href="dist/css/mystyle.css" />
-     <link rel="stylesheet" href="dist/css/bootstrap.css" />
-     <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="cheat sheet">
+     <meta name="author" content="Julie Rouet">
+
+
+
+     <link rel="stylesheet" href="css/bootstrap.css" />
+     <link rel="stylesheet" href="css/style.css" />
+
+
+     <script type="text/javascript" src="js/bootstrap.js"></script>
      <title>html</title>
+
+
+
+     <!-- Custom CSS -->
+     <link href="css/logo-nav.css" rel="stylesheet">
+
 </head>
 
 <body>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
+     <!-- Navigation -->
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                         <img src="http://placehold.it/150x50&text=Logo" alt="">
+                    </a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                         <li>
+                              <a href="#">Menu</a>
+                         </li>
+                         <li>
+                              <a href="#">Css</a>
+                         </li>
+                         <li>
+                              <a href="#">Emmet</a>
+                         </li>
+                    </ul>
+               </div>
+               <!-- /.navbar-collapse -->
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  
+          <!-- /.container -->
+     </nav>
+
+
+
+
      <div class="container">
 
 
-          <caption>Shit cheat sheet Html</caption>
+          <h1>Shit cheat sheet Html</h1>
 
 
           <!-- A-->
           <div class="row">
-               <div class="col-lg-6">
+               <div class="col-lg-4 col-md-6 col-xs-12">
                     <table class="table-condensed">
+                         <caption>A</caption>
 
                          <thead>
 
 
                               <tr>
                                    <th>
-                                        A nom de la balise
+                                        nom de la balise
                                    </th>
                                    <th>
                                         description
@@ -153,8 +151,9 @@
                <!-- B-->
 
 
-               <div class="col-lg-6">
+               <div class="col-lg-4 col-md-6 col-xs-12">
                     <table class="table-condensed">
+                         <caption>B</caption>
                          <thead>
                               <tr>
                                    <th>
@@ -215,737 +214,280 @@
                                         </td>
                                    </td>
                               </tr>
+                         </tbody>
+                    </table>
+               </div>
+
+
+               <!-- C-->
+
+
+               <div class="col-lg-4 col-md-6 col-xs-12">
+                    <table class="table-condensed">
+                         <caption>C</caption>
+                         <thead>
+                              <tr>
+                                   <th>
+                                        nom de la balise
+                                   </th>
+                                   <th>
+                                        description
+                                   </th>
+                              </tr>
+                         </thead>
+                         <tbody>
                               <tr>
                                    <td>
-                                        <code></code>
+
+                                        <code>canvas</code>
                                         <td>
-                                             <dfn></dfn>
+                                             <dfn>Balise pour réaliser en programmation des effets</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>caption</code>
+                                        <td>
+                                             <dfn>Titre d'un tableau</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>cite</code>
+                                        <td>
+                                             <dfn>Pour le marquage de titre de livreou du nomd'un auteur</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>code</code>
+                                        <td>
+                                             <dfn>Code technique informatique</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>col</code>
+                                        <td>
+                                             <dfn>Colonne de tableau</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>colgroupe</code>
+                                        <td>
+                                             <dfn>Groupe de colonne dans un tableau</dfn>
                                         </td>
                                    </td>
                               </tr>
                          </tbody>
                     </table>
                </div>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                         <code></code>
-                         <td>
-                              <dfn></dfn>
-                         </td>
-                    </td>
-               </tr>
-
-
-
 
           </div>
 
 
+
+          <!-- D-->
+
+          <div class="row">
+               <div class="col-lg-4 col-md-6 col-xs-12">
+                    <table class="table-condensed">
+                         <caption>D</caption>
+                         <thead>
+                              <tr>
+                                   <th>
+                                        nom de la balise
+                                   </th>
+                                   <th>
+                                        description
+                                   </th>
+                              </tr>
+                         </thead>
+                         <tbody>
+                              <tr>
+                                   <td>
+
+                                        <code>data</code>
+                                        <td>
+                                             <dfn>Pour afficher un contenu technique (heure, données informatiques)</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>datalist</code>
+                                        <td>
+                                             <dfn>Autocompletion d'un élément input</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>dd</code>
+                                        <td>
+                                             <dfn>Définition du terme</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>del</code>
+                                        <td>
+                                             <dfn>Texte supprimé</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>details</code>
+                                        <td>
+                                             <dfn>Section dont le titre est visible mais dont le contenu est masqué</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>dfn</code>
+                                        <td>
+                                             <dfn>Définition</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>div</code>
+                                        <td>
+                                             <dfn>Balise générique de type block</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>dl</code>
+                                        <td>
+                                             <dfn>Liste de définitions</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <code>dt</code>
+                                        <td>
+                                             <dfn>Terme à définir</dfn>
+                                        </td>
+                                   </td>
+                              </tr>
+
+                         </tbody>
+                    </table>
+               </div>
+          </div>
+
+          <!-- E-->
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+               <table class="table-condensed">
+                    <caption>E</caption>
+                    <thead>
+                         <tr>
+                              <th>
+                                   nom de la balise
+                              </th>
+                              <th>
+                                   description
+                              </th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                         <tr>
+                              <td>
+
+                                   <code>embed</code>
+                                   <td>
+                                        <dfn>Insertion d'éléments multimédia</dfn>
+                                   </td>
+                              </td>
+                         </tr>
+
+
+                    </tbody>
+               </table>
+          </div>
+
+          <!-- F-->
+
+          <div class="col-lg-4 col-md-6 col-xs-12">
+               <table class="table-condensed">
+                    <caption>F</caption>
+                    <thead>
+                         <tr>
+                              <th>
+                                   nom de la balise
+                              </th>
+                              <th>
+                                   description
+                              </th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                         <tr>
+                              <td>
+
+                                   <code>fieldset</code>
+                                   <td>
+                                        <dfn>Groupe de champs</dfn>
+                                   </td>
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+
+                                   <code>figcaption</code>
+                                   <td>
+                                        <dfn>Description de la figure</dfn>
+                                   </td>
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <code>figure</code>
+                                   <td>
+                                        <dfn>Figure (image, code, etc)</dfn>
+                                   </td>
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <code>footer</code>
+                                   <td>
+                                        <dfn>Définit un pied de page d'une section ou de la page</dfn>
+                                   </td>
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>
+                                   <code>form</code>
+                                   <td>
+                                        <dfn>Section du pied du tableau</dfn>
+                                   </td>
+                              </td>
+                         </tr>
+
+
+
+                    </tbody>
+               </table>
+          </div>
+
+
      </div>
+     <!--row-->
 
 
 

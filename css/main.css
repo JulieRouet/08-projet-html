@@ -9,9 +9,16 @@ h3 {
 
 /* Tableaux */
 
+
 code {
   background-color: #de2580 !important;
   color: white !important;
+  font-size: 0.2em !important;
+}
+
+dfn {
+  font-size: 0.7em !important;
+
 }
 
 
@@ -26,9 +33,5 @@ caption {
 td {
   border-style: dotted;
   border-color: #ffee62;
-}
 
-
- ul .list-unstyled {
-  padding-left: 20%;
 }

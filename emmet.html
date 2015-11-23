@@ -116,70 +116,106 @@
                     <div class="container-fluid">
 
 
-                         <h3>Shit cheat sheet Html</h3>
+                         <h3>Shit cheat sheet Emmet</h3>
 
 
-                         <!-- A-->
+                         <!-- child-->
                          <div class="row">
                               <div class="col-lg-6 col-md-6 col-xs-12">
                                    <table class="table-condensed">
-                                        <caption>A</caption>
+                                        <caption>Child: &rsaquo;</caption>
 
 
                                         <tbody>
                                              <tr>
                                                   <td>
-                                                       <code>a</code>
+                                                       <code>nav&rsaquo;ul&rsaquo;li&rsaquo;</code>
                                                        <td>
-                                                            <dfn>Lien hypertexte</dfn>
+                                                            <dfn>
+                                                                 <ul>
+
+
+                                                                      &lsaquo;nav&rsaquo;
+                                                                      <ul>
+                                                                           &lsaquo;ul&rsaquo;
+                                                                           <ul>&lsaquo;li&rsaquo;&lsaquo;/li&rsaquo;</ul> &lsaquo;/ul&rsaquo;
+                                                                      </ul> &lsaquo;/nav&rsaquo;</ul>
+                                                            </dfn>
+                                                       </td>
+                                                  </td>
+                                             </tr>
+
+                                        </tbody>
+                                   </table>
+                              </div>
+
+
+                              <!-- Sibling: +-->
+
+
+                              <div class="col-lg-6 col-md-6 col-xs-12">
+                                   <table class="table-condensed">
+                                        <caption>Sibling: +</caption>
+
+                                        <tbody>
+                                             <tr>
+                                                  <td>
+
+                                                       <code>div+p+bq</code>
+                                                       <td>
+                                                            <dfn>&lsaquo;div&rsaquo; &lsaquo;/div&rsaquo;
+                                                                 <br> &lsaquo;p&rsaquo; &lsaquo;/p&rsaquo;
+                                                                 <br> &lsaquo;blockquot&rsaquo; &lsaquo;/blockquote&rsaquo;
+                                                            </dfn>
+                                                       </td>
+                                                  </td>
+                                             </tr>
+
+                                        </tbody>
+                                   </table>
+                              </div>
+
+                         </div>
+                         <!-- row1-->
+
+
+
+
+                         <!-- Climb-up: ^-->
+                         <!-- row2-->
+                         <div class="row">
+
+                              <div class="col-lg-6 col-md-6 col-xs-12 ">
+                                   <table class="table-condensed" align="float-left">
+                                        <caption>Climb-up: ^</caption>
+
+                                        <tbody>
+                                             <tr>
+                                                  <td>
+
+                                                       <code>div+div&rsaquo;p&rsaquo;span+em^bqs</code>
+                                                       <td>
+                                                            <dfn>&lsaquo;div&rsaquo;&lsaquo;/div&rsaquo;
+                                                                 <br>&lsaquo;div&rsaquo;
+                                                                 <ul>
+
+                                                                      &lsaquo;p&rsaquo;&lsaquo;span&rsaquo;&lsaquo;/span&rsaquo;&lsaquo;em&rsaquo;&lsaquo;/em&rsaquo;&lsaquo;/p&rsaquo; &lsaquo;blockquote&rsaquo;&lsaquo;/blockquote&rsaquo;
+                                                                 </ul> &lsaquo;/div&rsaquo;</dfn>
                                                        </td>
                                                   </td>
                                              </tr>
                                              <tr>
                                                   <td>
-                                                       <code>abbr</code>
+                                                       <code>div+div&rsaquo;p&rsaquo;span+em^^bq</code>
                                                        <td>
-                                                            <dfn>Abréviation</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>address</code>
-                                                       <td>
-                                                            <dfn>Adresse mail du webmaster</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>area</code>
-                                                       <td>
-                                                            <dfn>Zone d'une image</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>article</code>
-                                                       <td>
-                                                            <dfn>Cette balise définit un contenu externe (exemple : billet de blog)</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>aside</code>
-                                                       <td>
-                                                            <dfn>Cette balise définit un contenu mis à part (comme une zone de pub par exemple)</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>audio</code>
-                                                       <td>
-                                                            <dfn>Son</dfn>
+                                                            <dfn>
+                                                                 <dfn>&lsaquo;div&rsaquo;&lsaquo;/div&rsaquo;
+                                                                      <br>&lsaquo;div&rsaquo;
+                                                                      <ul>
+
+                                                                           &lsaquo;p&rsaquo;&lsaquo;span&rsaquo;&lsaquo;/span&rsaquo;&lsaquo;em&rsaquo;&lsaquo;/em&rsaquo;&lsaquo;/p&rsaquo; &lsaquo;/div&rsaquo;
+                                                                      </ul>&lsaquo;blockquote&rsaquo;&lsaquo;/blockquote&rsaquo;</dfn>
+                                                            </dfn>
                                                        </td>
                                                   </td>
                                              </tr>
@@ -188,240 +224,67 @@
                               </div>
 
 
-                              <!-- B-->
+
+
+                              <!-- Grouping: ()-->
 
 
                               <div class="col-lg-6 col-md-6 col-xs-12">
                                    <table class="table-condensed">
-                                        <caption>B</caption>
+                                        <caption>Grouping: ()</caption>
 
                                         <tbody>
                                              <tr>
                                                   <td>
 
-                                                       <code>b</code>
+                                                       <code>div&rsaquo;(header&rsaquo;ul&rsaquo;li*2&rsaquo;a)+footer&rsaquo;p</code>
                                                        <td>
-                                                            <dfn>Affichage en gras</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>bd!</code>
-                                                       <td>
-                                                            <dfn>Texte avec un sens de lecture différent du texte courant</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>blockquote</code>
-                                                       <td>
-                                                            <dfn>Citation (longue)</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>body</code>
-                                                       <td>
-                                                            <dfn>Corps de la page</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>br/</code>
-                                                       <td>
-                                                            <dfn>Retour à la ligne forcé</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>button</code>
-                                                       <td>
-                                                            <dfn>Un boutton</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                        </tbody>
-                                   </table>
-                              </div>
+                                                            <dfn>&lsaquo;div&rsaquo;
+                                                                 <ul>
 
-</div>
-                              <!-- row1-->
-
-
-                              <!-- C-->
-                              <!-- row2-->
-                              <div class="row">
-
-                                   <div class="col-lg-6 col-md-6 col-xs-12 ">
-                                        <table class="table-condensed" align="float-left">
-                                             <caption>C</caption>
-
-                                             <tbody>
-                                                  <tr>
-                                                       <td>
-
-                                                            <code>canvas</code>
-                                                            <td>
-                                                                 <dfn>Balise pour réaliser en programmation des effets</dfn>
-                                                            </td>
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td>
-                                                            <code>caption</code>
-                                                            <td>
-                                                                 <dfn>Titre d'un tableau</dfn>
-                                                            </td>
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td>
-                                                            <code>cite</code>
-                                                            <td>
-                                                                 <dfn>Pour le marquage de titre de livreou du nomd'un auteur</dfn>
-                                                            </td>
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td>
-                                                            <code>code</code>
-                                                            <td>
-                                                                 <dfn>Code technique informatique</dfn>
-                                                            </td>
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td>
-                                                            <code>col</code>
-                                                            <td>
-                                                                 <dfn>Colonne de tableau</dfn>
-                                                            </td>
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td>
-                                                            <code>colgroupe</code>
-                                                            <td>
-                                                                 <dfn>Groupe de colonne dans un tableau</dfn>
-                                                            </td>
-                                                       </td>
-                                                  </tr>
-                                             </tbody>
-                                        </table>
-                                   </div>
-
-
-
-
-                              <!-- D-->
-
-
-                              <div class="col-lg-6 col-md-6 col-xs-12">
-                                   <table class="table-condensed">
-                                        <caption>D</caption>
-
-                                        <tbody>
-                                             <tr>
-                                                  <td>
-
-                                                       <code>data</code>
-                                                       <td>
-                                                            <dfn>Pour afficher un contenu technique (heure, données informatiques)</dfn>
+                                                                      &lsaquo;header&rsaquo;
+                                                                      <ul>
+                                                                           &lsaquo;ul&rsaquo;
+                                                                           <ul> &lsaquo;li&rsaquo;&lsaquo;a href=""&rsaquo;&lsaquo;/a&rsaquo;&lsaquo;/li&rsaquo; &lsaquo;li&rsaquo;&lsaquo;a href=""&rsaquo;&lsaquo;/a&rsaquo;&lsaquo;/li&rsaquo;</ul> &lsaquo;/ul&rsaquo;
+                                                                      </ul> &lsaquo;/header&rsaquo;</ul>
+                                                                 &lsaquo;footer&rsaquo;
+                                                                 <ul class="list-unstyled">
+                                                                      <li>&lsaquo;p&rsaquo;
+                                                                      </li>
+                                                                      <li>&lsaquo;/p&rsaquo; </li>
+                                                                 </ul> &lsaquo;/footer&rsaquo;
+                                                                 <br> &lsaquo;/div&rsaquo;</dfn>
                                                        </td>
                                                   </td>
                                              </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>datalist</code>
-                                                       <td>
-                                                            <dfn>Autocompletion d'un élément input</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>dd</code>
-                                                       <td>
-                                                            <dfn>Définition du terme</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>del</code>
-                                                       <td>
-                                                            <dfn>Texte supprimé</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>details</code>
-                                                       <td>
-                                                            <dfn>Section dont le titre est visible mais dont le contenu est masqué</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>dfn</code>
-                                                       <td>
-                                                            <dfn>Définition</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>div</code>
-                                                       <td>
-                                                            <dfn>Balise générique de type block</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>dl</code>
-                                                       <td>
-                                                            <dfn>Liste de définitions</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>dt</code>
-                                                       <td>
-                                                            <dfn>Terme à définir</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
+
 
                                         </tbody>
                                    </table>
                               </div>
                          </div>
+
+
                          <!-- row2 -->
 
 
 
-                         <!-- E-->
+                         <!-- Multiplication: *-->
                          <!-- row3 -->
                          <div class="row">
                               <div class="col-lg-6 col-md-6 col-xs-12">
                                    <table class="table-condensed">
-                                        <caption>E</caption>
+                                        <caption>Multiplication: *</caption>
 
                                         <tbody>
                                              <tr>
                                                   <td>
 
-                                                       <code>embed</code>
+                                                       <code>ul&rsaquo;li*5</code>
                                                        <td>
-                                                            <dfn>Insertion d'éléments multimédia</dfn>
+                                                            <dfn> &lsaquo;ul&rsaquo;<ul> &lsaquo;li&rsaquo; &lsaquo;/li&rsaquo; <br>&lsaquo;li&rsaquo;&lsaquo;/li&rsaquo; <br>&lsaquo;li&rsaquo; &lsaquo;/li&rsaquo; <br>&lsaquo;li&rsaquo; &lsaquo;/li&rsaquo; <br>&lsaquo;li&rsaquo;
+
+                                                                 &lsaquo;/li&rsaquo;</ul> &lsaquo;/ul&rsaquo;</dfn>
                                                        </td>
                                                   </td>
                                              </tr>
@@ -430,330 +293,12 @@
                                         </tbody>
                                    </table>
                               </div>
-                              <!-- F-->
 
-                              <div class="col-lg-6 col-md-6 col-xs-12">
-                                   <table class="table-condensed">
-                                        <caption>F</caption>
-
-                                        <tbody>
-                                             <tr>
-                                                  <td>
-
-                                                       <code>fieldset</code>
-                                                       <td>
-                                                            <dfn>Groupe de champs</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-
-                                                       <code>figcaption</code>
-                                                       <td>
-                                                            <dfn>Description de la figure</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>figure</code>
-                                                       <td>
-                                                            <dfn>Figure (image, code, etc)</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>footer</code>
-                                                       <td>
-                                                            <dfn>Définit un pied de page d'une section ou de la page</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>form</code>
-                                                       <td>
-                                                            <dfn>Section du pied du tableau</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-
-
-
-                                        </tbody>
-                                   </table>
-                              </div>
-
-
-
-                         </div>
-
-                         <!-- row3 -->
-
-                         <!-- H-->
-                         <!-- row4 -->
-
-                         <div class="row">
-
-                              <div class="col-lg-6 col-md-6 col-xs-12">
-                                   <table class="table-condensed">
-                                        <caption>H</caption>
-
-                                        <tbody>
-                                             <tr>
-                                                  <td>
-
-                                                       <code>H1</code>
-                                                       <td>
-                                                            <dfn>Titre de niveau 1</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-
-                                                       <code>H2</code>
-                                                       <td>
-                                                            <dfn>Titre de niveau 2</dfn>
-                                                       </td>
-                                                  </td>
-
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>H3</code>
-                                                       <td>
-                                                            <dfn>Titre de niveau 3</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>H4</code>
-                                                       <td>
-                                                            <dfn>Titre de niveau 4</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>H5</code>
-                                                       <td>
-                                                            <dfn>Titre de niveau 5</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>H6</code>
-                                                       <td>
-                                                            <dfn>Titre de niveau 6</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>head</code>
-                                                       <td>
-                                                            <dfn>En-tête de la page</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>header</code>
-                                                       <td>
-                                                            <dfn>Définit une entête d'une section ou de la page</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>hr/</code>
-                                                       <td>
-                                                            <dfn>Ligne de séparation horizontale</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                             <tr>
-                                                  <td>
-                                                       <code>html</code>
-                                                       <td>
-                                                            <dfn>Balise racine</dfn>
-                                                       </td>
-                                                  </td>
-                                             </tr>
-                                        </tbody>
-                                   </table>
-                              </div>
-
-
-
-
-                         <!-- I-->
-
-                         <div class="col-lg-6 col-md-6 col-xs-12">
-                              <table class="table-condensed">
-                                   <caption>I</caption>
-
-
-                                   <tbody>
-                                        <tr>
-                                             <td>
-                                                  <code>iframe</code>
-                                                  <td>
-                                                       <dfn>Permet d'afficher une page web locale ou distante dans une zone de la page courante</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>img/</code>
-                                                  <td>
-                                                       <dfn>Image</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>input</code>
-                                                  <td>
-                                                       <dfn>Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>ins</code>
-                                                  <td>
-                                                       <dfn>Texte inséré</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-
-                                   </tbody>
-                              </table>
                          </div>
                     </div>
-                    <!-- row4 -->
 
-
-
-                    <!-- L-->
-                    <!-- row5 -->
-                    <div class="row">
-
-                         <div class="col-lg-6 col-md-6 col-xs-12">
-                              <table class="table-condensed">
-                                   <caption>L</caption>
-
-                                   <tbody>
-                                        <tr>
-                                             <td>
-
-                                                  <code>label</code>
-                                                  <td>
-                                                       <dfn>Libellé d'un champ</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>legend</code>
-                                                  <td>
-                                                       <dfn>Titre d'un groupe de champs</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>li</code>
-                                                  <td>
-                                                       <dfn>Élément de la liste à puces</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>link</code>
-                                                  <td>
-                                                       <dfn>Insertion d'une feuille de style</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-
-                                   </tbody>
-                              </table>
-                         </div>
-
-
-                         <!-- m-->
-
-
-                         <div class="col-lg-6 col-md-6 col-xs-12">
-                              <table class="table-condensed">
-                                   <caption>M</caption>
-
-                                   <tbody>
-                                        <tr>
-                                             <td>
-
-                                                  <code>main</code>
-                                                  <td>
-                                                       <dfn>Permet d'insérer du contenu</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>mark</code>
-                                                  <td>
-                                                       <dfn>Mise en valeur visuelle</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>ms-text-size-adjust</code>
-                                                  <td>
-                                                       <dfn>Balise de métadonnées de la page</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>code</code>
-                                                  <td>
-                                                       <dfn>Code technique informatique</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>col</code>
-                                                  <td>
-                                                       <dfn>Colonne de tableau</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                             <td>
-                                                  <code>colgroupe</code>
-                                                  <td>
-                                                       <dfn>Groupe de colonne dans un tableau</dfn>
-                                                  </td>
-                                             </td>
-                                        </tr>
-                                   </tbody>
-                              </table>
-                         </div>
-                    </div>
                </div>
-
           </div>
-     </div>
      </div>
 
 

@@ -18,6 +18,12 @@
 
 /* Titres */
 
+.titresite {color: #1b8a5f!important;
+  font-family: BodoniXT;
+  font-size: 7em !important;
+
+}
+
 h1 {
      color: #ffee62 !important;
 }

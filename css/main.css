@@ -11,16 +11,18 @@
 }
 
 .navbouton {
-     color: #fd16ae !important;
+     color: #fd16ae!important;
      font-size: 0, 6em !important;
 }
 
 
 /* Titres */
 
-.titresite {color: #1b8a5f!important;
+.titresite
+ {color: #fd16ae !important;
   font-family: BodoniXT;
-  font-size: 7em !important;
+  font-size: 4em !important;
+  background-color: #FFF !important;
 
 }
 
@@ -38,6 +40,16 @@ h3 {
      text-align: center;
      font-size: 4em !important;
 }
+
+/* Textes*/
+
+.justiffy {
+font-size: 2em !important;
+text-align: center !important;
+margin-top: 20px;
+margin border-bottom: 20px;
+}
+
 
 
 /* images */

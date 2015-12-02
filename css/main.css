@@ -3,6 +3,7 @@
 .logo {
      width: 60%;
      height: auto;
+     display: block;
 }
 
 .navbar {
@@ -42,7 +43,7 @@ h3 {
 }
 .post-title {
   padding-bottom: 10%;
-  
+
 }
 
 /* Textes*/
@@ -50,13 +51,17 @@ p {
   font-family: 'Loved by the King', cursive !important;
   font-size:2em !important;
 }
+#play {
+  font-size: 3em !important;
+  color: #fd16ae;
+}
 
 
 
 
 /* images */
-img {
-  padding-bottom: 10%;
+.img-responsive {
+padding-bottom: 10%;
 padding-top: 10%;
 
 }
@@ -75,6 +80,8 @@ padding-top: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 10%;
+  padding-top: 10%;
 
 }
 

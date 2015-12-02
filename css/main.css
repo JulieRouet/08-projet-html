@@ -16,7 +16,7 @@
 }
 
 
-/* Titres */
+/* Titres  et sous-titres*/
 
 .titresite
  {color: #fd16ae !important;
@@ -40,17 +40,26 @@ h3 {
      text-align: center;
      font-size: 4em !important;
 }
+.post-title {
+  padding-bottom: 10%;
+  
+}
 
 /* Textes*/
 p {
-  font-family: "Just Me Again Down Here", cursive !important;
-  font-size:3.2em !important;
+  font-family: 'Loved by the King', cursive !important;
+  font-size:2em !important;
 }
 
 
 
 
 /* images */
+img {
+  padding-bottom: 10%;
+padding-top: 10%;
+
+}
 
 .valerie {
      width: 50%;
@@ -58,7 +67,7 @@ p {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     padding-bottom: 10%;
+
 }
 #winner {
   width: 65%;
@@ -66,8 +75,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10%;
-  padding-top: 10%;
+
 }
 
 /* Tableaux */

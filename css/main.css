@@ -42,13 +42,11 @@ h3 {
 }
 
 /* Textes*/
-
-.justiffy {
-font-size: 2em !important;
-text-align: center !important;
-margin-top: 20px;
-margin border-bottom: 20px;
+p {
+  font-family: "Just Me Again Down Here", cursive !important;
+  font-size:3.2em !important;
 }
+
 
 
 

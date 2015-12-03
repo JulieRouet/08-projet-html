@@ -57,6 +57,12 @@ p {
   padding-bottom: 10%;
   padding-top: 10%;
 }
+.nb {
+  padding-bottom: 10%;
+  padding-top: 10%;
+  font-size: 1.4em !important;
+
+}
 
 
 
@@ -125,6 +131,8 @@ td {
      border-style: dotted;
      border-color: #ffee62;
 }
+/*********************************** Footer**********************************/
+
 
 
 /* boutons */

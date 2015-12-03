@@ -71,6 +71,8 @@ p {
 .img-responsive {
 padding-bottom: 10%;
 padding-top: 10%;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -83,7 +85,7 @@ padding-top: 10%;
 
 }
 #winner {
-  width: 65%;
+  width: 90%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -109,6 +111,11 @@ padding-top: 10%;
 
 }
 
+iframe {
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+}
 /* Tableaux */
 
 code {
